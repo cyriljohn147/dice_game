@@ -1,10 +1,25 @@
+var temp=0;
+
 var random1 = Math.round(Math.random()*6);
 var random2 = Math.round(Math.random()*6);
 
-dice(".i1",random1);
-dice(".i2",random2);
+if(temp === 1)
+{
+    dice(".i1",random1);
+    dice(".i2",random2);
+    won(random1,random2);
+}
 
-won(random1,random2);
+else
+    preset();
+
+
+
+function preset()
+{
+    document.querySelector(".i1 .i2").setAttribute("src","./images/dice6.png");
+    temp=1;
+}
 
 function dice(c,random)
 {
