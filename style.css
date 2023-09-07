@@ -1,0 +1,54 @@
+*
+{
+    margin: 0;
+    border: 0;
+    color: #E19898;
+}
+
+.game
+{
+    height: 100vh;
+    background-color: #3F1D38;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1.5fr 0.25fr 2fr 1fr;
+}
+
+.item
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer
+{
+    align-items: start;
+}
+
+.title
+{
+    font-size: 4.5em;
+}
+
+.players
+{
+    display: flex;
+    gap: 80px;
+}
+
+.player
+{
+    border-radius: 20px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.dices
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
