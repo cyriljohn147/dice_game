@@ -17,7 +17,6 @@ else
 
 function preset()
 {
-    document.querySelector(".i1 .i2").setAttribute("src","./images/dice6.png");
     temp=1;
 }
 
